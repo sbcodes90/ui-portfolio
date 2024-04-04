@@ -90,7 +90,7 @@ function Home() {
                 alt="placeholder"
               />
             </div>
-            <div className="px-10">
+            <div className="px-5">
               <p className="text-sm">
                 I have always been fascinated by the process of authentication
                 on web applications, so I decided to take matters into my own
@@ -142,7 +142,7 @@ function Home() {
 
             <div className="rounded-3xl shadow-2xl lg:mr-20 mx-10 bg-[#ffffff] border-black border-2">
               <p className="font-black text-center mt-5 text-black">Swift UI Mobile Card Game</p>
-              <p className=" font-normal text-sm px-20 py-5 text-center lg:px-[50px] text-black">
+              <p className=" font-normal text-sm px-10 py-5 text-center lg:px-[50px] text-black">
                 As my career grows my goal is to transition to mobile app development. This is my first project, using image assets from Chris Codes. 
                 In order to test you would need XCode. Code found on my github page. Link below.
               </p>
