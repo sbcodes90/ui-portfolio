@@ -21,7 +21,7 @@ export default function TechStack() {
       <p className=" text-xl lg:text-4xl text-white font-bold text-center pt-20">
         Tech Stack
       </p>
-      <section className="h-screen  grid  grid-cols-3 lg:grid-cols-5 gap-4 place-items-center px-40 pt-20 pb-50 ">
+      <section className="h-screen  grid  grid-cols-3 lg:grid-cols-5 gap-4 place-items-center px-20 pt-20 pb-50 ">
         <img src={reactlogo} alt="react" className="lg:w-20 lg:h-20" />
         <img src={javascriptLogo} alt="javascript" className="lg:w-20 lg:h-20" />
         <img src={html5} alt="html5" className="lg:w-20 lg:h-20" />

@@ -10,7 +10,7 @@ import TechStack from './TechStack';
 
 function Home() {
   return (
-    <div>
+    <div className='w-full'>
         <img src={mbanner} alt="banner" className=" h-full w-full " />
         <section className=" bg-white grid grid-cols-1 lg:grid-cols-2 pt-14 lg:px-20 lg:py-10  place-items-center">
           <img src={avi} alt="me" />
@@ -32,10 +32,10 @@ function Home() {
             </strong>
             <div className="flex gap-[20px] mt-[20px] pt-[50px] pb-[50px] place-content-center">
               <button className="bg-transparent  hover:bg-black hover:text-white border-black text-black border-2 font-semibold py-2 px-10 rounded-2xl">
-                Contact
+                <a href="mailto:sydneycburrell29@gmail.com">Contact</a>
               </button>
               <button className="bg-transparent hover:bg-black hover:text-white border-2 border-black text-black font-semibold py-2 px-10   rounded-2xl">
-                Github
+                <Link to="https://github.com/sbcodes90" target='none'>Github</Link>
               </button>
             </div>
           </p>
@@ -86,7 +86,7 @@ function Home() {
             <div className=" md:hidden lg:hidden">
               <img
                 src={authappic}
-                className=" mt-5 pb-10 lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                className=" mt-5 pb-10 px-10 lg:w-[500px] grid-cols-1 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
                 alt="placeholder"
               />
             </div>
@@ -112,12 +112,12 @@ function Home() {
               </p>
             </div>
             <div className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-2 gap-5 pt-10 md:pt-5 lg:pt-5 pb-20 px-20 lg:px-0">
-              <button className="text-white border-white border-2  px-2  md:px-10 lg:px-10 py-2 rounded-2xl lg:mt-5">
+              <button className="text-white border-white border-2  py-2 px-[45px]  md:px-10 lg:px-10 rounded-2xl lg:mt-5">
                <Link to="https://sbcodes-auth-app.vercel.app/"     target="blank">
-                Check it out
+                View
                 </Link>
               </button>
-              <button className="text-white border-white border-2 px-2  md:px-10 lg:px-10 py-2 rounded-2xl lg:mt-5 lg:ml-5">
+              <button className="text-white border-white border-2 py-2 px-[45px]   md:px-10 lg:px-10 rounded-2xl lg:mt-5 lg:ml-5">
                 <Link to="https://github.com/sbcodes90/react-mongo-tailwind-auth-app"     target="blank">GitHub</Link>
               </button>
             </div>
