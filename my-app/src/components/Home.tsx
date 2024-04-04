@@ -54,13 +54,13 @@ function Home() {
 
             <div className="rounded-3xl shadow-2xl lg:mr-20 mx-10 bg-[#ffffff] border-black border-2">
               <p className="font-black text-center mt-5 text-black">Meal App</p>
-              <p className=" font-normal text-sm px-20 py-5 text-center lg:px-[50px] text-black">
+              <p className=" font-normal text-sm px-10 py-5 text-center lg:px-[50px] text-black">
                 As a self proclaimed foodie, sometimes at home I want to try to
                 random recipes, so I decided to make a application that browses
                 for you. The Meal API app utilizes a free public API.
               </p>
 
-              <div className="flex flex-col justify-center items-center lg:flex-row lg:gap-[20px] mt-[20px] pb-[50px] lg:place-content-center">
+              <div className="flex flex-col md:flex-col justify-center items-center lg:flex-row lg:gap-[20px] mt-[20px] pb-[50px] lg:place-content-center">
                 <button className="bg-black text-white font-semibold py-2 px-[45px] mb-2 border border-black  hover:bg-black hover:text-white  rounded-2xl">
                   <Link
                     to="https://65ab32bd70a8274031649eb1--mealappbysb.netlify.app/"
